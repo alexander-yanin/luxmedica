@@ -1,0 +1,18 @@
+.lux-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  min-height: 32px;
+  border-radius: 30px;
+  border: solid 1px #2f223a;
+  color: #2f223a;
+  font-size: 16px;
+  text-decoration: none;
+
+  &.light {
+    border: solid 2px #fff;
+    color: #fff;
+  }
+}

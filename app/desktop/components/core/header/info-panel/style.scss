@@ -1,0 +1,127 @@
+.info-panel-wrapper {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: solid 1px #979797;
+  font-family: PFAgoraSlabProRegular;
+  font-size: 16px;
+  color: #fff;
+
+  .info-panel {
+    max-width: 1140px;
+    height: 100%;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+  }
+
+  .info-panel-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+
+    &__item {
+       display: flex;
+       flex-direction: row;
+       padding-right: 28px;
+
+       &:last-child {
+           padding: 0;
+       }
+
+       &-icon img {
+           width: 20px;
+           height: 20px;
+           padding-right: 10px;
+       }
+       & > i {
+           padding-right: 10px;
+           font-style: normal;
+           font-family: ProximaNova;
+       }
+       & > span {
+           display: block;
+           line-height: 20px;
+           font-family: PFAgoraSlabProRegular;
+           font-size: 16px;
+           color: #fff;
+           text-decoration: none;
+       }
+
+       & > a {
+           font-family: PFAgoraSlabProRegular;
+           font-size: 16px;
+           color: #fff;
+           text-decoration: none;
+       }
+    }
+  }
+
+  .info-panel-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin-left: 45px;
+
+    & > i {
+       width: 20px;
+       height: 20px;
+       display: block;
+       position: absolute;
+       top: 13px;
+       left: 13px;
+       background: url('./../../../../../../static/img/search.svg');
+       background-repeat: no-repeat;
+       background-position: center center;
+    }
+
+    & > input {
+       width: 166px;
+       height: 30px;
+       position: relative;
+       -webkit-border-radius: 100px;
+       -moz-border-radius: 100px;
+       border-radius: 100px;
+       border: solid 1px rgba(255, 255, 255, 0.7);
+       background: transparent;
+       font-size: 16px;
+       font-family: PFAgoraSlabProRegular;
+       color: rgba(255, 255, 255, .7);
+       outline: none;
+       -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+       box-sizing: border-box;
+       padding-left: 38px;
+       padding-right: 10px;
+    }
+  }
+}
+
+.info-panel-bad-eye {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+
+  & > i {
+    display: block;
+    width: 46px;
+    height: 22px;
+    background: url('./../../../../../../static/img/eye.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .info-panel-wrapper {
+    display: none;
+  }
+}

@@ -1,0 +1,31 @@
+@import "reset";
+
+// FONTS
+@font-face {
+  font-family: 'PFAgoraSlabProRegular';
+  src: url('../static/fonts/pfagoraslabpro-reg.ttf');
+}
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../static/fonts/proximanova-regular.otf');
+}
+
+
+.root {
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  -webkit-align-items: center;
+
+  .content {
+    width: 100%;
+    min-height: calc(100vh - 258px);
+  }
+}

@@ -1,0 +1,70 @@
+.doctor-card {
+  display: flex;
+  flex-direction: row;
+  max-width: 540px;
+  height: 200px;
+  box-sizing: border-box;
+  white-space: normal;
+  margin-right: 30px;
+
+  &-avatar {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+  }
+
+  &-info {
+    display: inline-block;
+    width: 340px;
+    height: 100%;
+    padding-left: 17px;
+    font-family: PFAgoraSlabPro;
+    color: #2f223a;
+    text-align: left;
+
+    &__fullname {
+      font-size: 24px;
+      line-height: 1.33;
+      margin: 6px 0 14px;
+    }
+
+    &__description {
+      display: block;
+      height: 100px;
+      overflow-y: hidden;
+      font-size: 18px;
+      line-height: 1.22;
+    }
+  }
+
+  &.mobile {
+    height: auto;
+    margin: 0;
+    padding: 0 10px;
+    .doctor-card-avatar {
+      width: 100px;
+      height: 100px;
+    }
+
+    .doctor-card-info {
+      width: 200px;
+
+      &__fullname {
+        font-size: 14px;
+        line-height: 1.71;
+        margin: 6px 0 2px
+      }
+
+      &__description {
+        font-size: 11px;
+        line-height: 1;
+        text-align: center;
+        display: block;
+        height: 45px;
+      }
+    }
+  }
+}

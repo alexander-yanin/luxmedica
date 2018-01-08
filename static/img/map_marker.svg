@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="14px" viewBox="0 0 11 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>map_marker</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer" transform="translate(-946.000000, -19.000000)" stroke="#FFFFFF">
+            <g id="Group-2">
+                <g transform="translate(945.000000, 18.000000)">
+                    <g id="map_marker" transform="translate(2.000000, 2.000000)">
+                        <ellipse id="Oval-4" cx="4.5" cy="4.43181818" rx="2.1" ry="2.06818182"></ellipse>
+                        <path d="M4.5,12.8811257 C4.5,13.0542436 9,6.87944378 9,4.43181818 C9,1.98419259 6.98528137,0 4.5,0 C2.01471863,0 0,1.98419259 0,4.43181818 C0,6.87944378 4.5,12.7080078 4.5,12.8811257 Z" id="Oval-3-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

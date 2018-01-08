@@ -1,0 +1,50 @@
+.sale-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 300px;
+  background-image: linear-gradient(170deg, #42364f 30%, #fa1e55);
+
+  h3 {
+    margin: 45px 50px 0;
+    font-family: ProximaNova;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &-btn {
+    width: 206px;
+    height: 58px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  p {
+    margin: 20px 0;
+    font-family: PFAgoraSlabPro;
+    font-size: 24px;
+    line-height: 1.38;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  &.mobile {
+    min-height: auto;
+    h3 {
+      margin: 20px;
+      font-size: 20px;
+    }
+
+    .sale-banner-btn {
+      width: 150px;
+      height: 32px;
+      font-size: 14px;
+      margin: 10px auto;
+      border: 1px solid;
+      font-weight: normal;
+    }
+  }
+}

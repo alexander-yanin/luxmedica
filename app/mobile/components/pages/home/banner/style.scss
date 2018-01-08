@@ -1,0 +1,102 @@
+.mob-banner-slider-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 427px;
+
+  .mob-banner-slider {
+    position: relative;
+    width: 100%;
+    height: inherit;
+    overflow-x: hidden;
+  }
+
+  .mob-banner-slider-centred {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-width: 320px;
+    max-width: 736px;
+    height: inherit;
+  }
+
+  .mob-banner-slide-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    height: inherit;
+    white-space: nowrap;
+    font-size: 0;
+    transition: all 1s;
+  }
+
+  .mob-banner-circles {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.mob-banner-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: inherit;
+  white-space: normal;
+  overflow: hidden;
+
+  &-image {
+    width: 100%;
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+  }
+
+  &-content {
+    position: relative;
+    width: 100%;
+    height: 232px;
+    padding: 10px 11px 0;
+    font-family: PFAgoraSlabPro;
+    color: #2f223a;
+
+    h3 {
+      font-family: ProximaNova;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: left;
+      color: #fa1756;
+      margin-bottom: 10px;
+    }
+
+    p {
+      display: block;
+      font-size: 14px;
+      line-height: 1;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+
+    a {
+      position: absolute;
+      bottom: 50px;
+      left: 11px;
+      width: 150px;
+      height: 32px;
+      font-size: 14px;
+    }
+  }
+}

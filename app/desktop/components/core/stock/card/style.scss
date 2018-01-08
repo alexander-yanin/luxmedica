@@ -1,0 +1,78 @@
+.stock-card {
+  position: relative;
+  display: inline-block;
+  width: 360px;
+  height: 307px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 5px;
+
+  &-preview {
+    width: 360px;
+    height: 210px;
+    background-size: cover;
+  }
+
+  .stock-card-description-wrapper {
+    width: 360px;
+    height: 97px;
+    background-color: #2f223a;
+  }
+
+  .stock-card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 328px;
+    height: 100%;
+    margin: 0 auto;
+
+    label {
+      padding-top: 7px;
+      font-family: PFAgoraSlabPro;
+      font-size: 18px;
+      line-height: 1.33;
+      text-align: left;
+      color: #ffffff;
+      white-space: normal;
+    }
+
+    span {
+      padding-bottom: 9px;
+      font-family: PFAgoraSlabPro;
+      font-size: 14px;
+      text-align: left;
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+
+  &.mobile {
+    display: block;
+    width: 288px;
+    height: 247px;
+    margin: 0 auto;
+    text-decoration: none;
+
+    .stock-card-preview {
+      width: 100%;
+      height: 168px;
+    }
+    .stock-card-description-wrapper {
+      width: 100%;
+      height: 85px;
+
+      .stock-card-description {
+        padding: 3px 7px 13px;
+        width: 100%;
+
+        label {
+          font-size: 14px;
+        }
+
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

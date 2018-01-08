@@ -1,0 +1,24 @@
+.nav-bar-panel-wrapper {
+  width: 100%;
+  height: 82px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 16px;
+  color: #fff;
+}
+
+.nav-bar-panel {
+  max-width: 1140px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 15px;
+
+  img {
+    width: 100%;
+  }
+}

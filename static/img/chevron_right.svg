@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="75px" viewBox="0 0 42 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron_right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.500339674">
+        <g id="Главная" transform="translate(-1309.000000, -1680.000000)" fill-rule="nonzero" fill="#2F223A">
+            <g id="Group-6" transform="translate(89.000000, 1479.000000)">
+                <g id="chevron_right" transform="translate(1241.000000, 238.500000) scale(-1, 1) rotate(90.000000) translate(-1241.000000, -238.500000) translate(1204.000000, 218.000000)">
+                    <path d="M72.8308923,1.24333615 C71.2679137,-0.326507395 68.729452,-0.330519774 67.1594555,1.2323021 L36.9726144,31.319131 L6.84592642,1.17512569 C5.27893762,-0.391708564 2.74047593,-0.391708564 1.17448968,1.17512569 C-0.391496561,2.74296304 -0.391496561,5.28279937 1.17448968,6.84963363 L34.1323846,39.8243728 C34.9153777,40.6077899 35.9419909,41 36.9686042,41 C37.9922098,41 39.016818,40.6097961 39.7988085,39.8303913 L72.8208667,6.91684098 C74.3888581,5.35401911 74.3938709,2.81317969 72.8308923,1.24333615 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+.appointment-button {
+  width: 225px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #fa1756;
+  font-size: 18px;
+  font-family: PFAgoraSlabPro-Bold;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+  &:hover {
+     background: #c51143;
+  }
+}
