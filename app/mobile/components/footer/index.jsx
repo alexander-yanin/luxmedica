@@ -2,9 +2,6 @@ import React from "react";
 import "./style.scss";
 import { Link } from "react-router-dom";
 
-import Nav from "./nav";
-import Item from "./nav/item";
-
 import logo from "static/img/logo_luxmedica.svg";
 import map_marker from "static/img/map_marker.svg";
 import call from "static/img/call.svg";
@@ -25,14 +22,14 @@ export const Footer = props => {
                         <span>© ООО "Городской Центр Медосмотра" 2016-2017</span>
                         <span>Имеются противопоказания.<br/>Проконсультируйтесь со специлистом</span>
                     </div>
-                    <Nav className={`footer-nav`}>
-                        <Item>Услуги</Item>
-                        <Item>Врачи</Item>
-                        <Item>О клинике</Item>
-                        <Item>Акции</Item>
-                        <Item>Вакансии</Item>
-                        <Item>Правовая информация</Item>
-                    </Nav>
+                    <ul className={`footer-nav`}>
+                        <li className={`footer-nav-item`}><a className={`footer-nav-item__link`} href="#">Услуги</a></li>
+                        <li className={`footer-nav-item`}><a className={`footer-nav-item__link`} href="#">Врачи</a></li>
+                        <li className={`footer-nav-item`}><a className={`footer-nav-item__link`} href="#">О клинике</a></li>
+                        <li className={`footer-nav-item`}><a className={`footer-nav-item__link`} href="#">Акции</a></li>
+                        <li className={`footer-nav-item`}><a className={`footer-nav-item__link`} href="#">Вакансии</a></li>
+                        <li className={`footer-nav-item`}><a className={`footer-nav-item__link`} href="#">Правовая информация</a></li>
+                    </ul>
                 </div>
                 <div className={`footer-info-section`}>
                     <ul className="footer-info">
