@@ -1,0 +1,29 @@
+.footer-info {
+  position: relative;
+
+  &-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 6px;
+
+    &__icon {
+      display: inline-block;
+      margin-top: 3px;
+      margin-right: 13px;
+      max-width: 13.3px;
+    }
+
+    &__link {
+      font-family: PFAgoraSlabPro;
+      font-size: 16px;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  &.mobile {
+    .footer-info-item__link {
+      font-size: 12px;
+    }
+  }
+}

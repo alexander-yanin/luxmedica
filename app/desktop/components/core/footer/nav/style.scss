@@ -1,0 +1,33 @@
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  &-item {
+    margin-left: 64px;
+    margin-bottom: 15px;
+    &__link {
+      text-decoration: none;
+      font-family: PFAgoraSlabPro;
+      font-size: 16px;
+      color: #fff;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &.mobile {
+    width: 100%;
+    height: 110px;
+    .footer-nav-item {
+      margin-bottom: 19px;
+      &:nth-child(1), &:nth-child(2), &:nth-child(3) {
+        margin-left: 0;
+      }
+    }
+    .footer-nav-item__link {
+      font-size: 12px;
+    }
+  }
+}

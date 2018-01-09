@@ -8,14 +8,15 @@ import { fetchInfoAll } from "./actions/core";
 
 import "./styles/style.scss";
 
+import isMobile from "libs/userAgent";
 
 import Header from "./components/core/header";
-
 import Home from "./components/pages/home";
 // import Shares from "./pages/shares/Shares";
 // import ShareDetail from "./pages/shares/ShareDetail";
 // import Contacts from "./pages/contacts/Contacts";
 import Footer from "./components/core/footer";
+import MobFooter from "mobile/components/footer";
 
 
 export class App extends React.Component {
@@ -34,7 +35,7 @@ export class App extends React.Component {
                         {/*<Route exact path={`/about/shares`} component={Shares} />*/}
                         {/*<Route exact path={`/contacts`} component={Contacts} />*/}
                     </section>
-                    <Footer  infoAll={this.props.infoAll}/>
+                    {!isMobile.any() ? <Footer infoAll={this.props.infoAll}/> : <MobFooter infoAll={this.props.infoAll}/>}
                 </div>
             </BrowserRouter>
         );

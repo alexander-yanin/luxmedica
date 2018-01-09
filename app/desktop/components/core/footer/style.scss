@@ -32,65 +32,7 @@ footer {
     }
   }
 
-  .footer-nav {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-    &-item {
-      margin-left: 64px;
-      margin-bottom: 15px;
-      &__link {
-        text-decoration: none;
-        font-family: PFAgoraSlabPro;
-        font-size: 16px;
-        color: #fff;
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
-
   .footer-info-section {
     position: relative;
-
-    .footer-info {
-      position: relative;
-
-      &-item {
-        display: flex;
-        align-items: flex-start;
-        margin-bottom: 6px;
-
-        &__icon {
-          display: inline-block;
-          margin-top: 3px;
-          margin-right: 13px;
-          max-width: 13.3px;
-        }
-
-        &__link {
-          font-family: PFAgoraSlabPro;
-          font-size: 16px;
-          color: #fff;
-        }
-      }
-    }
-
-    .footer-social {
-      position: absolute;
-      right: 0;
-      bottom: 26px;
-
-      &-link {
-        display: inline-block;
-        height: auto;
-        margin-left: 12px;
-        &:first-child {
-          margin-left: 0;
-        }
-      }
-    }
   }
 }

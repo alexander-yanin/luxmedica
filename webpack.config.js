@@ -108,7 +108,7 @@ module.exports = {
     devServer: {
         headers: { 'Access-Control-Allow-Origin': '*' },
         open: true,
-        port: 9000,
+        port: 9100,
         contentBase: path.join(__dirname, `../dist/${DEVICE}`)
     }
 
